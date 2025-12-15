@@ -1,68 +1,57 @@
+# 📊 Investment Dashboard – PostgreSQL & Power BI
 
-# 📊Dashboard de Investimentos – PostgreSQL & Power BI
-📌 Visão Geral
+## 📌 Overview
 
-Este projeto foi desenvolvido a partir de um banco de dados PostgreSQL já existente.
-O foco do trabalho está na criação de views analíticas para consolidação dos dados, as quais foram utilizadas como fonte para a construção de dashboards no Power BI.
+This project was developed using an existing PostgreSQL database.  
+The main focus is the creation of analytical views to consolidate data, which were then used as the data source for building dashboards in Power BI.
 
-O objetivo é demonstrar a integração entre banco de dados relacional e ferramenta de Business Intelligence, aplicando boas práticas de modelagem, agregação e visualização de dados.
-
---- 
-🎯 Objetivo do Projeto
-
-Consolidar dados de investimentos financeiros
-
-Criar uma camada analítica utilizando views no PostgreSQL
-
-Conectar o Power BI diretamente às views
-
-Visualizar indicadores como:
-
-Total investido
-
-Distribuição por banco
-
-Distribuição por tipo de investimento
-
-Concentração de capital
-
----
-🗄️ Banco de Dados
-
-SGBD: PostgreSQL
-
-O banco de dados já existia previamente
-
-Nenhuma tabela original foi alterada
-
-Foram criadas views analíticas para consumo no BI
+The goal is to demonstrate the integration between a relational database and a Business Intelligence tool, applying best practices in data modeling, aggregation, and visualization.
 
 ---
 
-🔐 Observação sobre os dados
+## 🎯 Project Objectives
 
-Os dados utilizados neste projeto são fictícios e/ou anonimizados, sendo empregados exclusivamente para fins educacionais e de portfólio.
-
----
-🧠 Aprendizados
-
-Criação de views analíticas no PostgreSQL
-
-Uso de agregações (SUM, GROUP BY)
-
-Integração entre PostgreSQL e Power BI
-
-Organização de dados para consumo em BI
-
-Boas práticas de privacidade e modelagem analítica
+- Consolidate financial investment data  
+- Create an analytical layer using PostgreSQL views  
+- Connect Power BI directly to the views  
+- Visualize key indicators such as:
+  - Total invested amount
+  - Distribution by bank
+  - Distribution by investment type
+  - Capital concentration
 
 ---
-🛠️ Tecnologias Utilizadas
 
-PostgreSQL(Views,agregações com SUM e GROUP BY)
+## 🗄️ Database
+
+- DBMS: PostgreSQL  
+- The database already existed prior to this project  
+- No original tables were modified  
+- Analytical views were created specifically for BI consumption  
+
+---
+
+## 🔐 Data Disclaimer
+
+The data used in this project is fictitious and/or anonymized and is intended solely for educational and portfolio purposes.
+
+---
+
+## 🧠 Key Learnings
+
+- Creation of analytical views in PostgreSQL  
+- Data aggregation using SQL for BI purposes  
+- Integration between PostgreSQL and Power BI  
+- Design of dashboards focused on data analysis and decision support
+
+
+---
+🛠️ Technologies Used
+
+PostgreSQL (Views, aggregations with SUM and GROUP BY)
 
 Power BI
 
-Docker (utilizado praa ambientação do banco de dados)
+Docker (used for database environment)
 
 GitHub
