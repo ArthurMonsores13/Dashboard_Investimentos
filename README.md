@@ -1,5 +1,5 @@
 
-# 📊 Projeto de Análise de Investimentos – SQL & Power BI
+# 📊Dashboard de Investimentos – PostgreSQL & Power BI
 📌 Visão Geral
 
 Este projeto foi desenvolvido a partir de um banco de dados PostgreSQL já existente.
