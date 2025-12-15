@@ -59,12 +59,10 @@ Boas práticas de privacidade e modelagem analítica
 ---
 🛠️ Tecnologias Utilizadas
 
-PostgreSQL
-
-SQL
+PostgreSQL(Views,agregações com SUM e GROUP BY)
 
 Power BI
 
-Docker (ambiente local)
+Docker (utilizado praa ambientação do banco de dados)
 
 GitHub
